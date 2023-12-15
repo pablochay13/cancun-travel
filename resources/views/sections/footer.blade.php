@@ -1,8 +1,8 @@
-<div class="w-full h-[838px] relative">
-    <div class="w-full h-[655px] top-[183px] absolute bg-gradient-to-b from-black to-black"></div>
-    <div class="w-full h-[406px] left-0 top-0 absolute bg-white blur-[104px]"></div>
-    <div class="w-full h-[316px] top-[481px] absolute">
-        <div class="w-[1280px] h-[60px] left-0 top-[256px] absolute">
+<div class="w-full h-[838px] relative" style="background-image: url('{{ asset('/img/cancun-travel-experience-footer.webp')}}')">
+    <div class="w-full h-[838px]  top-0 absolute bg-black bg-opacity-30"></div>
+    <div class="w-full h-[838px]  top-0 absolute bg-white bg-opacity-30"></div>
+    <div class="w-full h-[316px] top-[481px] flex items-center justify-center absolute">
+        <div class="w-[1280px] h-[60px]  top-[256px] flex items-center justify-center absolute">
             <div class="left-[533px] top-[19px] absolute text-white text-sm font-normal font-['PP Mori'] leading-snug">© 2023 cancuntravelexperience.</div>
             <div class="w-[362px] h-[60px] left-[918px] top-0 absolute justify-center items-center gap-[15px] inline-flex">
                 <div class="w-[213px] px-[33px] pt-3.5 pb-[11px] bg-white bg-opacity-25 rounded-[50px] border backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-[1279px] h-[214px] left-0 top-0 absolute">
+        <div class="w-[1279px] h-[214px] flex items-center justify-center top-0 absolute">
             <div class="w-[820px] h-[214px] left-[459px] top-0 absolute justify-start items-start gap-20 inline-flex">
                 <div class="flex-col justify-start items-start gap-[15px] inline-flex">
                     <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Quick links</div>
@@ -88,8 +88,7 @@
                     </div>
                 </div>
                 <div class="w-[276px] h-[61px] left-0 top-0 absolute">
-                    <img class="w-[276px] h-[61px] left-0 top-0 absolute" src="https://via.placeholder.com/276x61" />
-                    <div class="w-[349px] h-[110px] left-[-36px] top-[-31px] absolute bg-white"></div>
+                    <img class="w-[276px] h-[61px] left-0 top-0 absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
                 </div>
             </div>
         </div>

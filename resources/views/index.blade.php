@@ -10,9 +10,9 @@
 @section('content')
 
 <!-- firts section -->
-<div class="w-full h-[706px] tect relative">
-    <div class="w-[1280px] h-[597px] flex items-center justify-center top-0 absolute">
-        <div class="w-[712px] h-[370px]  top-[76px] absolute flex-col justify-start items-start gap-4 inline-flex">
+<div class="w-full h-[706px] relative mt-12">
+    <div class="w-[1280px] h-[597px] flex items-center justify-center mt-12 absolute">
+        <div class="w-[712px] h-[370px] absolute flex-col justify-start items-start gap-4 inline-flex">
             <div class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Our Story</div>
             <div class="flex-col justify-start items-start gap-[30px] flex">
                 <div class="w-[712px]"><span class="text-slate-950 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Where Passion Meets </span><span class="text-orange-600 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Purpose</span><span class="text-slate-950 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">, and </span><span class="text-blue-900 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Adventures</span><span class="text-slate-950 text-[50px] font-bold font-['Trip Sans'] leading-[60px]"> Unfold</span></div>
@@ -24,7 +24,7 @@
         </div>
         <div class="w-[532px] h-[597px] left-[1148px] top-0 absolute">
             <div class="w-[532px] h-[597px] left-0 top-0 absolute bg-zinc-300"></div>
-            <img class="w-[532px] h-[597px] left-0 top-0 absolute rounded-lg" src="https://via.placeholder.com/532x597" />
+            <img class="w-[532px] h-[597px] left-0 top-0 absolute rounded-lg" src="{{ asset('/img/cancun-travel-experience-transportation.webp') }}" />
         </div>
     </div>
     <div class="w-[189px] h-[219px] left-0 top-[487px] absolute">
@@ -44,12 +44,12 @@
 </div>
 
 <!-- second section -->
-<div class="w-full h-[840px] flex-col justify-start items-center gap-10 inline-flex">
+<div class="w-full h-[840px] flex-col justify-start items-center gap-10 inline-flex mt-12">
     <div class="flex-col justify-start items-start gap-10 flex">
         <div class="flex-col justify-start items-start gap-[25px] flex">
             <div class="flex-col justify-start items-start gap-[17px] flex">
                 <div class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Our Experiences</div>
-                <div><span style="text-slate-950 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Your Guides to Untamed </span><span style="text-blue-900 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Experiences</span></div>
+                <div><span class="text-slate-950 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Your Guides to Untamed </span><span class="text-blue-900 text-[50px] font-bold font-['Trip Sans'] leading-[60px]">Experiences</span></div>
             </div>
             <div class="justify-center items-center gap-[18px] inline-flex">
                 <div class="px-[26px] py-5 bg-orange-600 rounded-lg justify-center items-center gap-2.5 flex">
@@ -67,169 +67,49 @@
             </div>
         </div>
         <div class="justify-start items-start gap-[25px] inline-flex">
-            <div class="w-[416px] h-[586px] relative">
-                <div class="w-[416px] h-[586px] left-0 top-0 absolute bg-white rounded-[9px] border border-slate-200"></div>
-                <div class="left-[16px] top-[16px] absolute flex-col justify-start items-start gap-[17px] inline-flex">
-                    <img class="w-[383px] h-[266px] rounded-[5px]" src="https://via.placeholder.com/383x266" />
-                    <div class="flex-col justify-start items-start gap-3 flex">
+            <div class="owl-carousel">
+                <div class="w-[416px] h-[586px] relative">
+                    <div class="w-[416px] h-[586px] bg-white rounded-[9px] border border-slate-200"></div>
+                    <div class="flex-col justify-start items-start gap-[17px] inline-flex">
+                        <img class="w-[383px] h-[266px] rounded-[5px]" src="https://via.placeholder.com/383x266" />
                         <div class="flex-col justify-start items-start gap-3 flex">
-                            <div class="flex-col justify-start items-start gap-[5px] flex">
-                                <div class="w-[379px] text-slate-950 text-[25px] font-bold font-['Trip Sans'] leading-[30px]">Tulum Day-Trip Mayan Ruins With
-                                    <br />Cenote Swim
+                            <div class="flex-col justify-start items-start gap-3 flex">
+                                <div class="flex-col justify-start items-start gap-[5px] flex">
+                                    <div class="w-[379px] text-slate-950 text-[25px] font-bold leading-[30px]">Tulum Day-Trip Mayan Ruins With
+                                        <br />Cenote Swim
+                                    </div>
+                                    <div class="text-slate-950 text-base font-normal">By Cancun Travel Experience</div>
                                 </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">By Cancun Travel Experience</div>
-                            </div>
-                            <div class="justify-start items-center gap-2 inline-flex">
-                                <div class="w-6 h-4 relative"></div>
-                                <div class="justify-start items-start gap-[2.63px] flex">
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
+                                <div class="justify-start items-center gap-2 inline-flex">
+                                    <div class="w-6 h-4 relative"></div>
+                                    <div class="justify-start items-start gap-[2.63px] flex">
+                                        <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
+                                        <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
+                                        <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
+                                        <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
+                                        <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
+                                    </div>
+                                    <div class="text-slate-950 text-base font-normal">523 reviews</div>
                                 </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">523 reviews</div>
                             </div>
+                            <div class="w-[383px] text-zinc-500 text-sm font-normal">Explore the Mayan temples of Tulum and learn with a
+                                professional guide, appreciate the ancient architecture
+                                and take a refreshing swim in crystal-clear water in a
+                                Dos Ojos cenote</div>
                         </div>
-                        <div class="w-[383px] text-zinc-500 text-sm font-normal font-['Trip Sans']">Explore the Mayan temples of Tulum and learn with a
-                            professional guide, appreciate the ancient architecture
-                            and take a refreshing swim in crystal-clear water in a
-                            Dos Ojos cenote</div>
+                    </div>
+                    <div class="relative">
+                        <div><span style="text-slate-950 text-sm font-normal leading-[18.56px]">From<br /></span><span style="text-slate-950 text-lg font-medium leading-normal">US$29.00</span></div>
+                        <div class="w-11 h-5 justify-start items-center gap-[5px] inline-flex">
+                            <div class="w-5 h-5 justify-center items-center flex">
+                                <div class="w-5 h-5 relative">
+                                </div>
+                            </div>
+                            <div class="text-slate-950 text-sm font-normal leading-[18.56px]">8 h</div>
+                        </div>
                     </div>
                 </div>
-                <div class="w-96 h-[45px] left-[16px] top-[522px] absolute">
-                    <div class="left-[307px] top-0 absolute"><span style="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">From<br /></span><span style="text-slate-950 text-lg font-medium font-['Trip Sans'] leading-normal">US$29.00</span></div>
-                    <div class="w-11 h-5 left-0 top-[13px] absolute justify-start items-center gap-[5px] inline-flex">
-                        <div class="w-5 h-5 relative">
-                            <div class="w-5 h-5 left-0 top-0 absolute">
-                            </div>
-                        </div>
-                        <div class="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">8 h</div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-[416px] h-[586px] relative">
-                <div class="w-[416px] h-[586px] left-0 top-0 absolute bg-white rounded-[9px] border border-slate-200"></div>
-                <div class="left-[16px] top-[16px] absolute flex-col justify-start items-start gap-[17px] inline-flex">
-                    <img class="w-[383px] h-[266px] rounded-[5px]" src="https://via.placeholder.com/383x266" />
-                    <div class="flex-col justify-start items-start gap-3 flex">
-                        <div class="flex-col justify-start items-start gap-3 flex">
-                            <div class="flex-col justify-start items-start gap-[5px] flex">
-                                <div class="w-[379px] text-slate-950 text-[25px] font-bold font-['Trip Sans'] leading-[30px]">Tulum Day-Trip Mayan Ruins With
-                                    <br />Cenote Swim
-                                </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">By Cancun Travel Experience</div>
-                            </div>
-                            <div class="justify-start items-center gap-2 inline-flex">
-                                <div class="w-6 h-4 relative"></div>
-                                <div class="justify-start items-start gap-[2.63px] flex">
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">523 reviews</div>
-                            </div>
-                        </div>
-                        <div class="w-[383px] text-zinc-500 text-sm font-normal font-['Trip Sans']">Explore the Mayan temples of Tulum and learn with a
-                            professional guide, appreciate the ancient architecture
-                            and take a refreshing swim in crystal-clear water in a
-                            Dos Ojos cenote</div>
-                    </div>
-                </div>
-                <div class="w-96 h-[45px] left-[16px] top-[522px] absolute">
-                    <div class="left-[307px] top-0 absolute"><span style="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">From<br /></span><span style="text-slate-950 text-lg font-medium font-['Trip Sans'] leading-normal">US$29.00</span></div>
-                    <div class="w-11 h-5 left-0 top-[13px] absolute justify-start items-center gap-[5px] inline-flex">
-                        <div class="w-5 h-5 relative">
-                            <div class="w-5 h-5 left-0 top-0 absolute">
-                            </div>
-                        </div>
-                        <div class="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">8 h</div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-[416px] h-[586px] relative">
-                <div class="w-[416px] h-[586px] left-0 top-0 absolute bg-white rounded-[9px] border border-slate-200"></div>
-                <div class="left-[16px] top-[16px] absolute flex-col justify-start items-start gap-[17px] inline-flex">
-                    <img class="w-[383px] h-[266px] rounded-[5px]" src="https://via.placeholder.com/383x266" />
-                    <div class="flex-col justify-start items-start gap-3 flex">
-                        <div class="flex-col justify-start items-start gap-3 flex">
-                            <div class="flex-col justify-start items-start gap-[5px] flex">
-                                <div class="w-[379px] text-slate-950 text-[25px] font-bold font-['Trip Sans'] leading-[30px]">Tulum Day-Trip Mayan Ruins With
-                                    <br />Cenote Swim
-                                </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">By Cancun Travel Experience</div>
-                            </div>
-                            <div class="justify-start items-center gap-2 inline-flex">
-                                <div class="w-6 h-4 relative"></div>
-                                <div class="justify-start items-start gap-[2.63px] flex">
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">523 reviews</div>
-                            </div>
-                        </div>
-                        <div class="w-[383px] text-zinc-500 text-sm font-normal font-['Trip Sans']">Explore the Mayan temples of Tulum and learn with a
-                            professional guide, appreciate the ancient architecture
-                            and take a refreshing swim in crystal-clear water in a
-                            Dos Ojos cenote</div>
-                    </div>
-                </div>
-                <div class="w-96 h-[45px] left-[16px] top-[522px] absolute">
-                    <div class="left-[307px] top-0 absolute"><span style="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">From<br /></span><span style="text-slate-950 text-lg font-medium font-['Trip Sans'] leading-normal">US$29.00</span></div>
-                    <div class="w-11 h-5 left-0 top-[13px] absolute justify-start items-center gap-[5px] inline-flex">
-                        <div class="w-5 h-5 relative">
-                            <div class="w-5 h-5 left-0 top-0 absolute">
-                            </div>
-                        </div>
-                        <div class="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">8 h</div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-[416px] h-[586px] relative">
-                <div class="w-[416px] h-[586px] left-0 top-0 absolute bg-white rounded-[9px] border border-slate-200"></div>
-                <div class="left-[16px] top-[16px] absolute flex-col justify-start items-start gap-[17px] inline-flex">
-                    <img class="w-[383px] h-[266px] rounded-[5px]" src="https://via.placeholder.com/383x266" />
-                    <div class="flex-col justify-start items-start gap-3 flex">
-                        <div class="flex-col justify-start items-start gap-3 flex">
-                            <div class="flex-col justify-start items-start gap-[5px] flex">
-                                <div class="w-[379px] text-slate-950 text-[25px] font-bold font-['Trip Sans'] leading-[30px]">Tulum Day-Trip Mayan Ruins With
-                                    <br />Cenote Swim
-                                </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">By Cancun Travel Experience</div>
-                            </div>
-                            <div class="justify-start items-center gap-2 inline-flex">
-                                <div class="w-6 h-4 relative"></div>
-                                <div class="justify-start items-start gap-[2.63px] flex">
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                    <div class="w-[12.29px] h-[12.29px] bg-green-500 rounded-lg"></div>
-                                </div>
-                                <div class="text-slate-950 text-base font-normal font-['Trip Sans']">523 reviews</div>
-                            </div>
-                        </div>
-                        <div class="w-[383px] text-zinc-500 text-sm font-normal font-['Trip Sans']">Explore the Mayan temples of Tulum and learn with a
-                            professional guide, appreciate the ancient architecture
-                            and take a refreshing swim in crystal-clear water in a
-                            Dos Ojos cenote</div>
-                    </div>
-                </div>
-                <div class="w-96 h-[45px] left-[16px] top-[522px] absolute">
-                    <div class="left-[307px] top-0 absolute"><span style="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">From<br /></span><span style="text-slate-950 text-lg font-medium font-['Trip Sans'] leading-normal">US$29.00</span></div>
-                    <div class="w-11 h-5 left-0 top-[13px] absolute justify-start items-center gap-[5px] inline-flex">
-                        <div class="w-5 h-5 relative">
-                            <div class="w-5 h-5 left-0 top-0 absolute">
-                            </div>
-                        </div>
-                        <div class="text-slate-950 text-sm font-normal font-['Trip Sans'] leading-[18.56px]">8 h</div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
