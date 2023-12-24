@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/contacto', [PageController::class, 'Contacto']);
+Route::get('/somos', [PageController::class, 'Somos']);
+Route::get('/tours', [PageController::class, 'Tours']);
+Route::get('/tulum-ultimate-tour', [PageController::class, 'TulumTour']);

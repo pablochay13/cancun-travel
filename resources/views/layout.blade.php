@@ -34,6 +34,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+    <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=ed6014cf-0772-484f-ab73-511bb2e36cc4" async></script>
+
     <script>
         $('.owl-carousel').owlCarousel({
             rtl:true,
@@ -51,7 +53,7 @@
                     nav: false
                 },
                 1000: {
-                    items: 5,
+                    items: 4,
                     nav: true,
                     loop: false
                 }
