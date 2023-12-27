@@ -26,3 +26,4 @@ Stimulus.register("tabs", class extends Controller {
         })
     }
 })
+

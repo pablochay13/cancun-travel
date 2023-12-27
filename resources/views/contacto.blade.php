@@ -10,8 +10,9 @@
 @section('content')
 
 <!-- contact section -->
-<div class="w-[342px] 2xl:w-[742px] h-[1400px] 2xl:h-[700px] left-10 2xl:left-[350px] relative my-12">
-    <div class="w-[342px] 2xl:w-[742px] h-[638px] left-0 top-0 absolute flex-col justify-start items-start gap-10 inline-flex mb-12">
+<div class="w-[342px] md:w-[742px] 2xl:w-[1100px] h-[1400px] md:h-[950px] 2xl:h-[700px] left-10 md:left-[300px] 2xl:left-[350px] relative my-12">
+
+    <div class="w-[342px] md:w-[742px] 2xl:w-[742px] h-[638px] left-0 top-0 absolute flex-col justify-start items-start gap-10 inline-flex mb-12">
         <div class="flex-col justify-start items-start gap-[47px] flex">
             <div class="flex-col justify-start items-start gap-2 flex">
                 <h1 class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Contact Us</h1>
@@ -71,8 +72,8 @@
             <button class="text-white text-base font-semibold font-['PP Mori']">Submit</button>
         </div>
     </div>
-    
-    <div class="2xl:w-[449px] h-[393.96px] left-[0px] top-[1000px] 2xl:left-[802px] 2xl:top-[152px] absolute flex-col justify-start items-start gap-[19px] inline-flex">
+
+    <div class="2xl:w-[449px] h-[393.96px] left-[0px] top-[1000px] md:left-[450px] md:top-[152px] 2xl:left-[802px] 2xl:top-[152px] absolute flex-col justify-start items-start gap-[19px] inline-flex">
         <div class="text-slate-950 text-[26px] font-medium font-['Trip Sans']">Contact Us Through</div>
         <div class="flex-col justify-start items-start gap-4 flex">
             <div class="pl-[18px] pr-[38px] py-5 bg-orange-50 rounded-[7px] justify-center items-center gap-3.5 inline-flex">

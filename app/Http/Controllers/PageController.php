@@ -23,6 +23,6 @@ class PageController extends Controller
 
     function TulumTour()
     {
-        return view('tulum-ultimate');
+        return view('landings.tulum-ultimate');
     }
 }

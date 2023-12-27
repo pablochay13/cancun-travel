@@ -10,7 +10,7 @@
 @section('content')
 
 <div class="container 2xl:w-[1280px] mx-auto py-12">
-    <div class="grid grid-cols-1 2xl:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-4">
         <div class="justify-center text-6xl rounded-xl p-6">
             <p class="text-orange-600 text-base uppercase leading-snug">About Us</p>
             <p class="text-zinc-900 text-[35px] 2xl:text-[65px] font-normal pb-12">Cancun Travel Experience</p>
@@ -27,7 +27,7 @@
 
 <div class="w-full bg-slate-50">
     <div class="container 2xl:w-[1280px] mx-auto py-12">
-        <div class="grid grid-cols-1 2xl:grid-cols-2 gap-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-4 py-12">
             <div class="flex justify-center rounded-xl p-0 2xl:p-6">
                 <img class="h-auto max-w-full 2xl:h-[574px]" src="{{ asset('/img/cancun-travel-experience-somos.webp') }}" />
             </div>
