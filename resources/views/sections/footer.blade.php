@@ -4,11 +4,11 @@
     
     <!-- desktop -->
     <div class="hidden md:block 2xl:block w-full h-[316px] top-[481px] absolute">
-        <div class="w-[1280px] md:left-[30px] left-[300px] h-[60px] top-[256px] absolute">
+        <div class="w-[1280px] 2xl:left-[300px] md:left-[30px] left-[300px] h-[60px] top-[256px] absolute">
             <div class="left-[533px] top-[19px] absolute text-white text-sm font-normal font-['PP Mori'] leading-snug">© 2023 cancuntravelexperience.</div>
-            <div class="w-[362px] h-[60px] left-[918px] top-0 absolute justify-center items-center gap-[15px] inline-flex">
-                <div class="w-[213px] px-[33px] pt-3.5 pb-[11px] bg-white bg-opacity-25 rounded-[50px] border backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
-                    <a href="" class="text-white text-base font-normal font-['PP Mori'] leading-7">Terms & Conditions</a>
+            <div class="w-[462px] h-[60px] left-[918px] top-0 absolute justify-center items-center gap-[15px] inline-flex">
+                <div class="w-[253px] px-[33px] pt-3.5 pb-[11px] bg-white bg-opacity-25 rounded-[50px] border backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                    <a href="" class="text-white text-base font-normal font-['PP Mori'] leading-7">Términos y condiciones</a>
                 </div>
                 <div class="w-[134px] px-11 pt-3.5 pb-[11px] bg-white bg-opacity-25 rounded-[50px] border backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
                     <a href="" class="text-white text-base font-normal font-['PP Mori'] leading-7">Policy</a>
@@ -16,7 +16,7 @@
             </div>
             <div class="w-[220px] h-[60px] left-0 top-0 absolute  gap-5 inline-flex">
                 <div class="w-[60px] h-[60px] relative">
-                    <div class="w-[60px] h-[60px] left-0 top-0 absolute rounded-[37px] border"></div>
+                    <div class="w-[60px] h-[60px] left-0 top-0 absolute rounded-[37px] border hover:bg-white"></div>
                     <div class="w-[27px] h-[27px] left-[17px] top-[17px] absolute">
                         <a href="mailto:info@cancuntravelexperience.com" class="w-[25px] h-[25px] flex justify-center items-center absolute">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ffffff" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="w-[60px] h-[60px] relative">
-                    <div class="w-[60px] h-[60px] left-0 top-0 absolute rounded-[37px] border"></div>
+                    <div class="w-[60px] h-[60px] left-0 top-0 absolute rounded-[37px] border hover:bg-white"></div>
                     <div class="w-[27px] h-[27px] left-[17px] top-[17px] absolute">
                         <a href="https://www.facebook.com/profile.php?id=100064292463699" class="w-[25px] h-[25px] flex justify-center items-center absolute" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#ffffff" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="w-[60px] h-[60px] relative">
-                    <div class="w-[60px] h-[60px] left-0 top-0 absolute rounded-[37px] border backdrop-blur-xl"></div>
+                    <div class="w-[60px] h-[60px] left-0 top-0 absolute rounded-[37px] border backdrop-blur-xl hover:bg-white"></div>
                     <div class="w-[23.67px] h-[23.67px] left-[18.33px] top-[18.33px] absolute">
                         <a href="https://www.instagram.com/cancun.travelexperience/" class="w-[25px] h-[25px] flex justify-center items-center absolute" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#ffffff" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -48,55 +48,55 @@
             </div>
         </div>
         
-        <div class="w-[1280px] h-[214px] top-0 md:left-[30px] left-[300px] absolute">
+        <div class="w-[1280px] h-[214px] top-0 2xl:left-[300px] md:left-[30px] left-[300px] absolute">
             <div class="w-[820px] h-[214px] left-[459px] top-0 absolute justify-start items-start gap-20 inline-flex">
                 <div class="flex-col justify-start items-start gap-[15px] inline-flex">
-                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Quick links</div>
+                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Enlaces</div>
                     <div class="flex-col justify-start items-start gap-[9px] flex">
-                        <a href="/" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Home</a>
+                        <a href="/" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Inicio</a>
                         <a href="#reviews" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Reviews</a>
-                        <a href="somos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">About Us</a>
-                        <a href="contacto" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Contact</a>
-                        <a href="tours" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">All Experiences</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Transfer</a>
+                        <a href="somos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Somos</a>
+                        <a href="contacto" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Contacto</a>
+                        <a href="tours" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Todas las experiencias</a>
+                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Traslados</a>
                     </div>
                 </div>
                 <div class="w-[331px] h-[214px] relative">
                     <div class="w-[178px] h-[214px] left-0 top-0 absolute flex-col justify-start items-start gap-[15px] inline-flex">
                         <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Tours</div>
                         <div class="flex-col justify-start items-start gap-[9px] flex">
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top Experiences</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Adventure</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Boats & Water Experiences</a>
+                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top experiencias</a>
+                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Aventura</a>
+                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Barcos y experiencias acuáticas</a>
                             <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Combos</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Sightseeing & Culture</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Private Experiences</a>
+                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Turismo y cultura</a>
+                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Experiencias privadas</a>
                         </div>
                     </div>
                     <div class="w-[108px] h-[146px] left-[223px] top-[37px] absolute flex-col justify-start items-start gap-[9px] inline-flex">
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Food & Drink</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Party & Nightlife</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Theme Parks</a>
+                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Comida y bebidas</a>
+                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Fiesta y vida nocturna</a>
+                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Parques temáticos</a>
                         <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Tulum</a>
                         <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Chichen Itza</a>
                     </div>
                 </div>
                 <div class="flex-col justify-start items-start gap-[15px] inline-flex">
-                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Contact Us</div>
+                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Contactanos</div>
                     <div class="flex-col justify-start items-start gap-[9px] flex">
-                        <p class="w-[229px] text-white text-sm font-normal font-['PP Mori'] leading-snug">Calle Tepich Lt 7 Mza 95, 77533 Cancún, Q.R.</p>
+                        <p class="w-[229px] text-white text-sm font-normal font-['PP Mori'] leading-snug">Cancún, Q.R., México</p>
                         <p class="text-white text-sm font-normal font-['PP Mori'] leading-snug">info@cancuntravelexperience.com</p>
-                        <p class="text-white text-sm font-normal font-['PP Mori'] leading-snug">+1 (483) 299 1400</p>
+                        <p class="text-white text-sm font-normal font-['PP Mori'] leading-snug">+1 469 482 0930</p>
                     </div>
                 </div>
             </div>
             <div class="w-[332px] h-[189px] left-0 top-0 absolute">
                 <div class="w-[332px] h-[89px] left-0 top-[100px] absolute flex-col justify-start items-start gap-[18px] inline-flex">
-                    <div class="text-white text-[15px] font-semibold font-['PP Mori'] leading-snug">Subscribe to our Newsletter</div>
+                    <div class="text-white text-[15px] font-semibold font-['PP Mori'] leading-snug">Suscríbase a nuestro boletín</div>
                     <div class="w-[332px] h-[49px] relative">
                         <div class="w-[332px] h-[49px] left-0 top-0 absolute bg-white rounded-[29.50px]"></div>
                         <div class="w-[91px] h-[39px] px-7 py-[19px] left-[236px] top-[5px] absolute bg-indigo-950 rounded-[29.50px] justify-center items-center gap-2.5 inline-flex">
-                            <a class="text-right text-white text-sm font-semibold font-['PP Mori'] leading-snug">Send</a>
+                            <a class="text-right text-white text-sm font-semibold font-['PP Mori'] leading-snug">Enviar</a>
                         </div>
                     </div>
                 </div>
@@ -113,48 +113,48 @@
             <img class="w-[276px] h-[61px] left-0 top-5 absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
         </div>
         <div class="w-96 h-20 pl-5 flex-col justify-start items-start gap-2.5 inline-flex">
-            <div class="text-white text-sm font-semibold font-['PP Mori'] leading-snug">Subscribe to our Newsletter</div>
+            <div class="text-white text-sm font-semibold font-['PP Mori'] leading-snug">Suscríbase a nuestro boletín</div>
             <div class="w-96 h-12 relative">
                 <div class="w-96 h-12 left-0 top-0 absolute bg-white rounded-3xl"></div>
                 <div class="w-20 h-10 px-7 py-5 left-[296px] top-[5px] absolute bg-indigo-950 rounded-3xl justify-center items-center gap-2.5 inline-flex">
-                    <button class="text-right text-white text-xs font-semibold font-['PP Mori'] leading-snug">Send</button>
+                    <button class="text-right text-white text-xs font-semibold font-['PP Mori'] leading-snug">Enviar</button>
                 </div>
             </div>
         </div>
         <div class="w-96 h-96 pl-5 pt-10 justify-start items-start gap-7 inline-flex">
             <div class="flex-col justify-start items-start gap-6 inline-flex">
                 <div class="flex-col justify-start items-start gap-3 flex">
-                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Quick links</div>
+                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Enlaces</div>
                     <div class="flex-col justify-start items-start gap-2 flex">
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Home</div>
+                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Inicio</div>
                         <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Reviews</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">About Us</div>
+                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Somos</div>
                         <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Contact</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">All Experiences</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Transfer</div>
+                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Todas las experiencias</div>
+                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Traslados</div>
                     </div>
                 </div>
                 <div class="w-44 flex-col justify-start items-start gap-3 flex">
-                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Contact Us</div>
+                    <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Contactanos</div>
                     <div class="w-44 flex-col justify-start items-start gap-2 flex">
                         <div class="w-44 text-white text-sm font-normal font-['PP Mori'] leading-snug">Calle Tepich Lt 7 Mza 95, 77533 Cancún, Q.R.</div>
                         <div class="w-44 text-white text-sm font-normal font-['PP Mori'] leading-snug">info@cancuntravelexperience.com</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">+1 (483) 299 1400</div>
+                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">+1 469 482 0930</div>
                     </div>
                 </div>
             </div>
             <div class="flex-col justify-start items-start gap-3 pl-6  inline-flex">
                 <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Tours</div>
                 <div class="flex-col justify-start items-start gap-2.5 flex">
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top Experiences</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Adventure</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Boats & Water Experiences</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top experiencias</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Aventura</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Barcos y experiencias acuáticas</div>
                     <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Combos</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Sightseeing & Culture</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Private Experiences</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Food & Drink</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Party & Nightlife</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Theme Parks</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Turismo y cultura</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Experiencias privadas</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Comida y bebidas</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Fiesta y vida nocturna</div>
+                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Parques temáticos</div>
                     <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Tulum</div>
                     <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Chichen Itza</div>
                 </div>
@@ -189,7 +189,7 @@
             </div>
             <div class="w-64 h-10 relative">
                 <div class="w-44 h-10 px-6 py-3.5 left-0 top-0 absolute bg-white bg-opacity-40 rounded-3xl border backdrop-blur-md justify-center items-center gap-2.5 inline-flex">
-                    <button class="text-white text-sm font-normal font-['PP Mori']">Terms & Conditions</button>
+                    <button class="text-white text-sm font-normal font-['PP Mori']">Términos y condiciones</button>
                 </div>
                 <div class="w-20 h-10 px-5 py-3 left-[183px] top-0 absolute bg-white bg-opacity-40 rounded-3xl border backdrop-blur-md justify-center items-center gap-2.5 inline-flex">
                     <button class="text-white text-sm font-normal font-['PP Mori']">Policy</button>

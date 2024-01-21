@@ -10,8 +10,10 @@
 @section('content')
 
 <div class="py-12 my-12">
-    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/experience/439888"></div>
+     
+    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/experience/439691"></div>
     <noscript>Please enable javascript in your browser to book</noscript>
+
 </div>
 
 @endsection

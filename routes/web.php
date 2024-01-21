@@ -18,7 +18,23 @@ Route::get('/', function () {
     return view('index');
 });
 
+// sitio general
 Route::get('/contacto', [PageController::class, 'Contacto']);
 Route::get('/somos', [PageController::class, 'Somos']);
 Route::get('/tours', [PageController::class, 'Tours']);
+
+// landings
 Route::get('/tulum-ultimate-tour', [PageController::class, 'TulumTour']);
+Route::get('/chichen-itza-experience-tour', [PageController::class, 'ChichenTour']);
+Route::get('/traslados', [PageController::class, 'Traslados']);
+Route::get('/aventura', [PageController::class, 'Aventura']);
+Route::get('/barcos-experiencias-acuaticas', [PageController::class, 'BarcosAgua']);
+Route::get('/combos', [PageController::class, 'Combos']);
+Route::get('/turismo-cultura', [PageController::class, 'TurismoCultura']);
+Route::get('/experiencias-privadas', [PageController::class, 'ExperienciasPrivadas']);
+Route::get('/comidas-y-bebidas', [PageController::class, 'ComidaBebida']);
+Route::get('/fiesta-y-vida-nocturna', [PageController::class, 'FiestaVidaNocturna']);
+Route::get('/parques-tematicos', [PageController::class, 'ParqueTematico']);
+
+//envio mail
+Route::post('/contactar', 'SendMail@contact')->name('contact');
