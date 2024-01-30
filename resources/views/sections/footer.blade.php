@@ -1,7 +1,7 @@
 <div class="w-full h-[1250px] md:h-[1070px] 2xl:h-[838px] relative pt-12 mt-12" style="background-image: url('{{ asset('/img/cancun-travel-experience-footer.webp')}}')">
     <div class="w-full h-[838px] top-0 absolute bg-black bg-opacity-30"></div>
     <div class="w-full h-[838px] top-0 absolute bg-white bg-opacity-30"></div>
-    
+
     <!-- desktop -->
     <div class="hidden md:block 2xl:block w-full h-[316px] top-[481px] absolute">
         <div class="w-[1280px] 2xl:left-[300px] md:left-[30px] left-[300px] h-[60px] top-[256px] absolute">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="w-[1280px] h-[214px] top-0 2xl:left-[300px] md:left-[30px] left-[300px] absolute">
             <div class="w-[820px] h-[214px] left-[459px] top-0 absolute justify-start items-start gap-20 inline-flex">
                 <div class="flex-col justify-start items-start gap-[15px] inline-flex">
@@ -199,3 +199,7 @@
         </div>
     </div>
 </div>
+
+<a class="whatsapp float" id="whatsapp" aria-label="Chat on WhatsApp" href="https://wa.me/529981955993" target="_blank" bis_skin_checked="1">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>

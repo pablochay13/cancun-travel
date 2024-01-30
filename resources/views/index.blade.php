@@ -224,7 +224,8 @@
     </div>
 
     <div class="w-[325px] md:w-full 2xl:w-full h-[350px] left-[55px] md:left-0 2xl:left-0 top-[300px] absolute justify-center items-center 2xl:items-end gap-7 md:inline-flex 2xl:inline-flex grid grid-cols-1">
-        <div class='sk-ww-tripadvisor-reviews' data-embed-id='25353154'></div>
+        <!-- <div class='sk-ww-tripadvisor-reviews' data-embed-id='25353154'></div> -->
+        <div class="elfsight-app-6a57d6fa-1dcd-4cff-ba53-2dc6a530ac7f" data-elfsight-app-lazy></div>
     </div>
 </div>
 
