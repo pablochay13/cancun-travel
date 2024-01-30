@@ -56,7 +56,7 @@
     <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
         <div x-data="{ openTab: 1 }" class="p-8">
             <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
-                <div class="mb-4 flex space-x-4 p-2 bg-white rounded-lg shadow-md">
+                <div class="mb-4 flex flex-col md:flex-row space-x-4 p-2 bg-white rounded-lg shadow-md">
                     <button x-on:click="openTab = 1" :class="{ 'bg-orange-600 text-white': openTab === 1 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Sightseeing & Culture</button>
                     <button x-on:click="openTab = 2" :class="{ 'bg-orange-600 text-white': openTab === 2 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Adventure Experiences</button>
                     <button x-on:click="openTab = 3" :class="{ 'bg-orange-600 text-white': openTab === 3 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Boats & Water Experiences</button>

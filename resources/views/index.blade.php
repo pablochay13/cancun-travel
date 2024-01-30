@@ -101,13 +101,16 @@
         </div>
     </div> -->
 
-    <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
+    <div class="w-full h-auto 2xl:h-auto flex-col justify-start items-center gap-10 inline-flex my-12">
         <div x-data="{ openTab: 1 }" class="p-8">
             <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
-                <div class="mb-4 flex space-x-4 p-2 bg-white rounded-lg shadow-md">
-                    <button x-on:click="openTab = 1" :class="{ 'bg-orange-600 text-white': openTab === 1 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Sightseeing & Culture</button>
-                    <button x-on:click="openTab = 2" :class="{ 'bg-orange-600 text-white': openTab === 2 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Adventure Experiences</button>
-                    <button x-on:click="openTab = 3" :class="{ 'bg-orange-600 text-white': openTab === 3 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Boats & Water Experiences</button>
+                <div class="mb-4 flex flex-col md:flex-row space-x-4 p-2 bg-white rounded-lg shadow-md">
+                    <button x-on:click="openTab = 1" :class="{ 'bg-orange-600 text-white': openTab === 1 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Turismo y Cultura</button>
+
+                    <button x-on:click="openTab = 2" :class="{ 'bg-orange-600 text-white': openTab === 2 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Experiences de aventura</button>
+
+                    <button x-on:click="openTab = 3" :class="{ 'bg-orange-600 text-white': openTab === 3 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Barcos y experiencias acuáticas</button>
+
                     <button x-on:click="openTab = 4" :class="{ 'bg-orange-600 text-white': openTab === 4 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Transfers</button>
                 </div>
 
@@ -214,114 +217,14 @@
 </div>
 
 <!-- reviews section -->
-<div class="w-full h-[2150px] md:h-[750px] 2xl:h-[850px] relative my-12 py-12" id="reviews">
+<div class="w-full h-[750px] md:h-[750px] 2xl:h-[750px] relative my-12 py-12" id="reviews">
     <div class="w-full h-[152px] 2xl:h-[152px] mx flex-col justify-center items-center gap-[17px] inline-flex py-12">
         <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest pt-12 mt-12">TESTIMONIOS</p>
         <p class="w-full 2xl:w-[775px] text-center text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Historias inspiradoras de nuestros clientes</p>
     </div>
 
-    <!-- <div class="w-[325px] md:w-full 2xl:w-full h-[350px] left-[55px] md:left-0 2xl:left-0 top-[300px] absolute justify-center items-center 2xl:items-end gap-7 md:inline-flex 2xl:inline-flex grid grid-cols-1">
-        <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] relative">
-            <div class="w-[325px] 2xl:w-[325px] md:w-[225px] h-[331px] left-0 top-0 absolute bg-white rounded-[7px] border border-slate-200"></div>
-            <div class="left-[21px] top-[0px] md:top-[20px] 2xl:top-[20px] absolute flex-col justify-start items-start gap-[41px] md:gap-[10px] 2xl:gap-[41px] inline-flex">
-                <div class="flex-col justify-start items-start gap-[18px] md:gap-[0px] 2xl:gap-[18px] flex">
-                    <p class="w-[284px] md:w-[200px] 2xl:w-[284px] text-slate-950 text-lg font-normal font-['PP Mori'] leading-relaxed">The best tour I’ve ever had! Miguel is the best guide ever! He is very flexible, knows a lot about ancient cultures. He will let you to have youaaaaaaa</p>
-                </div>
-                <div class="flex-col justify-start items-start gap-[11px] flex">
-                    <div class="flex-col justify-start items-start gap-[5px] flex">
-                        <div class="text-slate-950 text-base font-semibold font-['PP Mori']">Usman Zafar</div>
-                        <div class="text-slate-400 text-sm font-normal font-['PP Mori']">Trip advisor</div>
-                    </div>
-                    <div class="justify-center items-center gap-[5px] inline-flex">
-                        <div class="w-6 h-4 relative"></div>
-                        <div class="justify-center items-center flex"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] relative">
-            <div class="w-[325px] 2xl:w-[325px] md:w-[225px] h-[331px] left-0 top-0 absolute bg-white rounded-[7px] border border-slate-200"></div>
-            <div class="left-[21px] top-[0px] md:top-[20px] 2xl:top-[20px] absolute flex-col justify-start items-start gap-[41px] md:gap-[10px] 2xl:gap-[41px] inline-flex">
-                <div class="flex-col justify-start items-start gap-[18px] md:gap-[0px] 2xl:gap-[18px] flex">
-
-                    <p class="w-[284px] md:w-[200px] 2xl:w-[284px] text-slate-950 text-lg font-normal font-['PP Mori'] leading-relaxed">The best tour I’ve ever had! Miguel is the best guide ever! He is very flexible, knows a lot about ancient cultures. He will let you to have you</p>
-                </div>
-                <div class="flex-col justify-start items-start gap-[11px] flex">
-                    <div class="flex-col justify-start items-start gap-[5px] flex">
-                        <div class="text-slate-950 text-base font-semibold font-['PP Mori']">Usman Zafar</div>
-                        <div class="text-slate-400 text-sm font-normal font-['PP Mori']">Trip advisor</div>
-                    </div>
-                    <div class="justify-center items-center gap-[5px] inline-flex">
-                        <div class="w-6 h-4 relative"></div>
-                        <div class="justify-center items-center flex"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] relative">
-            <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] left-0 top-0 absolute bg-white rounded-[7px] border border-slate-200"></div>
-            <div class="left-[21px] top-[0px] md:top-[20px] 2xl:top-[20px] absolute flex-col justify-start items-start gap-[41px] md:gap-[10px] 2xl:gap-[41px] inline-flex">
-                <div class="flex-col justify-start items-start gap-[18px] md:gap-[0px] 2xl:gap-[18px] flex">
-
-                    <p class="w-[284px] md:w-[200px] 2xl:w-[284px] text-slate-950 text-lg font-normal font-['PP Mori'] leading-relaxed">The best tour I’ve ever had! Miguel is the best guide ever! He is very flexible, knows a lot about ancient cultures. He will let you to have you</p>
-                </div>
-                <div class="flex-col justify-start items-start gap-[11px] flex">
-                    <div class="flex-col justify-start items-start gap-[5px] flex">
-                        <div class="text-slate-950 text-base font-semibold font-['PP Mori']">Usman Zafar</div>
-                        <div class="text-slate-400 text-sm font-normal font-['PP Mori']">Trip advisor</div>
-                    </div>
-                    <div class="justify-center items-center gap-[5px] inline-flex">
-                        <div class="w-6 h-4 relative"></div>
-                        <div class="justify-center items-center flex"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] relative">
-            <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] left-0 top-0 absolute bg-white rounded-[7px] border border-slate-200"></div>
-            <div class="left-[21px] top-[0px] md:top-[20px] 2xl:top-[20px] absolute flex-col justify-start items-start gap-[41px] md:gap-[10px] 2xl:gap-[41px] inline-flex">
-                <div class="flex-col justify-start items-start gap-[18px] md:gap-[0px] 2xl:gap-[18px] flex">
-
-                    <p class="w-[284px] md:w-[200px] 2xl:w-[284px] text-slate-950 text-lg font-normal font-['PP Mori'] leading-relaxed">The best tour I’ve ever had! Miguel is the best guide ever! He is very flexible, knows a lot about ancient cultures. He will let you to have you</p>
-                </div>
-                <div class="flex-col justify-start items-start gap-[11px] flex">
-                    <div class="flex-col justify-start items-start gap-[5px] flex">
-                        <div class="text-slate-950 text-base font-semibold font-['PP Mori']">Usman Zafar</div>
-                        <div class="text-slate-400 text-sm font-normal font-['PP Mori']">Trip advisor</div>
-                    </div>
-                    <div class="justify-center items-center gap-[5px] inline-flex">
-                        <div class="w-6 h-4 relative"></div>
-                        <div class="justify-center items-center flex"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] relative">
-            <div class="w-[325px] md:w-[225px] 2xl:w-[325px] h-[331px] left-0 top-0 absolute bg-white rounded-[7px] border border-slate-200"></div>
-            <div class="left-[21px] top-[0px] md:top-[20px] 2xl:top-[20px] absolute flex-col justify-start items-start gap-[41px] md:gap-[10px] 2xl:gap-[41px] inline-flex">
-                <div class="flex-col justify-start items-start gap-[18px] md:gap-[0px] 2xl:gap-[18px] flex">
-
-                    <p class="w-[284px] md:w-[200px] 2xl:w-[284px] text-slate-950 text-lg font-normal font-['PP Mori'] leading-relaxed">The best tour I’ve ever had! Miguel is the best guide ever! He is very flexible, knows a lot about ancient cultures. He will let you to have you</p>
-                </div>
-                <div class="flex-col justify-start items-start gap-[11px] flex">
-                    <div class="flex-col justify-start items-start gap-[5px] flex">
-                        <div class="text-slate-950 text-base font-semibold font-['PP Mori']">Usman Zafar</div>
-                        <div class="text-slate-400 text-sm font-normal font-['PP Mori']">Trip advisor</div>
-                    </div>
-                    <div class="justify-center items-center gap-[5px] inline-flex">
-                        <div class="w-6 h-4 relative"></div>
-                        <div class="justify-center items-center flex"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="w-[325px] md:w-full 2xl:w-full h-[350px] left-[55px] md:left-0 2xl:left-0 top-[450px] absolute justify-center items-center 2xl:items-end gap-7 md:inline-flex 2xl:inline-flex grid grid-cols-1">
-        <script src="https://widget.trustmary.com/1tmCCZWh_"></script>
+    <div class="w-[325px] md:w-full 2xl:w-full h-[350px] left-[55px] md:left-0 2xl:left-0 top-[300px] absolute justify-center items-center 2xl:items-end gap-7 md:inline-flex 2xl:inline-flex grid grid-cols-1">
+        <div class='sk-ww-tripadvisor-reviews' data-embed-id='25353154'></div>
     </div>
 </div>
 
@@ -470,6 +373,12 @@
                     </div>
                 </div>
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
+                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Fecha</p>
+                    <div class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex">
+                        <input type="date" class="opacity-40 text-slate-500 text-base font-normal font-['PP Mori']">
+                    </div>
+                </div>
+                <!-- <div class="flex-col justify-start items-start gap-3 inline-flex">
                     <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Número de pasajeros</p>
                     <div class="w-[356px] h-[60px] relative">
                         <div class="w-[356px] h-[60px] left-0 top-0 absolute bg-slate-100 rounded-lg border"></div>
@@ -489,7 +398,7 @@
                         </div>
                         <div class="left-[169px] top-[21.50px] absolute text-center text-slate-500 text-base font-normal font-['PP Mori']">2</div>
                     </div>
-                </div>
+                </div> -->
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
                     <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Mensaje</p>
                     <div class="w-auto 2xl:w-[742px] h-[165px] relative">

@@ -65,20 +65,20 @@
                     <div class="w-[178px] h-[214px] left-0 top-0 absolute flex-col justify-start items-start gap-[15px] inline-flex">
                         <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Tours</div>
                         <div class="flex-col justify-start items-start gap-[9px] flex">
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top experiencias</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Aventura</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Barcos y experiencias acuáticas</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Combos</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Turismo y cultura</a>
-                            <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Experiencias privadas</a>
+                            <a href="tours" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top experiencias</a>
+                            <a href="aventura" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Aventura</a>
+                            <a href="barcos-experiencias-acuaticas" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Barcos y experiencias acuáticas</a>
+                            <a href="combos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Combos</a>
+                            <a href="turismo-cultura" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Turismo y cultura</a>
+                            <a href="experiencias-privadas" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Experiencias privadas</a>
                         </div>
                     </div>
                     <div class="w-[108px] h-[146px] left-[223px] top-[37px] absolute flex-col justify-start items-start gap-[9px] inline-flex">
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Comida y bebidas</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Fiesta y vida nocturna</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Parques temáticos</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Tulum</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Chichen Itza</a>
+                        <a href="comidas-y-bebidas" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Comida y bebidas</a>
+                        <a href="fiesta-y-vida-nocturna" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Fiesta y vida nocturna</a>
+                        <a href="parques-tematicos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Parques temáticos</a>
+                        <a href="tulum-ultimate-tour" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Tulum</a>
+                        <a href="chichen-itza-experience-tour" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Chichen Itza</a>
                     </div>
                 </div>
                 <div class="flex-col justify-start items-start gap-[15px] inline-flex">
