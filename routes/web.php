@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\SendEmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,4 +38,8 @@ Route::get('/fiesta-y-vida-nocturna', [PageController::class, 'FiestaVidaNocturn
 Route::get('/parques-tematicos', [PageController::class, 'ParqueTematico']);
 
 //envio mail
-Route::post('/contactar', 'SendMail@contact')->name('contact');
+// Route::get('/sendemail', 'SendEmailController@EnviarCorreo');
+// Route::post('/sendemail/send', 'SendEmailController@send');
+
+Route::get('/sendemail', [SendEmailController::class, 'enviarcorreo']);
+Route::post('/sendemail/send', [SendEmailController::class, 'send']);

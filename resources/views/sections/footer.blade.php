@@ -1,6 +1,6 @@
-<div class="w-full h-[1250px] md:h-[1070px] 2xl:h-[838px] relative pt-12 mt-12" style="background-image: url('{{ asset('/img/cancun-travel-experience-footer.webp')}}')">
-    <div class="w-full h-[838px] top-0 absolute bg-black bg-opacity-30"></div>
-    <div class="w-full h-[838px] top-0 absolute bg-white bg-opacity-30"></div>
+<div class="w-full h-auto md:h-[1070px] 2xl:h-[838px] relative pt-12 mt-12" style="opacity: 0.8; background-image: url('{{ asset('/img/cancun-travel-experience-footer.webp')}}')">
+    <!-- <div class="w-full h-[838px] top-0 absolute bg-black bg-opacity-30"></div>
+    <div class="w-full h-[838px] top-0 absolute bg-white bg-opacity-30"></div> -->
 
     <!-- desktop -->
     <div class="hidden md:block 2xl:block w-full h-[316px] top-[481px] absolute">
@@ -58,7 +58,7 @@
                         <a href="somos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Somos</a>
                         <a href="contacto" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Contacto</a>
                         <a href="tours" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Todas las experiencias</a>
-                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Traslados</a>
+                        <a href="traslados" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Traslados</a>
                     </div>
                 </div>
                 <div class="w-[331px] h-[214px] relative">
@@ -126,12 +126,12 @@
                 <div class="flex-col justify-start items-start gap-3 flex">
                     <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Enlaces</div>
                     <div class="flex-col justify-start items-start gap-2 flex">
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Inicio</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Reviews</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Somos</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Contact</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Todas las experiencias</div>
-                        <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Traslados</div>
+                        <a href="/" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Inicio</a>
+                        <a href="#reviews" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Reviews</a>
+                        <a href="somos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Somos</a>
+                        <a href="contacto" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Contacto</a>
+                        <a href="tours" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Todas las experiencias</a>
+                        <a class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Traslados</a>
                     </div>
                 </div>
                 <div class="w-44 flex-col justify-start items-start gap-3 flex">
@@ -146,17 +146,17 @@
             <div class="flex-col justify-start items-start gap-3 pl-6  inline-flex">
                 <div class="text-white text-base font-bold font-['Trip Sans'] uppercase leading-snug">Tours</div>
                 <div class="flex-col justify-start items-start gap-2.5 flex">
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top experiencias</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Aventura</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Barcos y experiencias acuáticas</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Combos</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Turismo y cultura</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Experiencias privadas</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Comida y bebidas</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Fiesta y vida nocturna</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Parques temáticos</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Tulum</div>
-                    <div class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Chichen Itza</div>
+                    <a href="tours" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Top experiencias</a>
+                    <a href="aventura" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Aventura</a>
+                    <a href="barcos-experiencias-acuaticas" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Barcos y experiencias acuáticas</a>
+                    <a href="combos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Combos</a>
+                    <a href="turismo-cultura" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Turismo y cultura</a>
+                    <a href="experiencias-privadas" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Experiencias privadas</a>
+                    <a href="comidas-y-bebidas" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Comida y bebidas</a>
+                    <a href="fiesta-y-vida-nocturna" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Fiesta y vida nocturna</a>
+                    <a href="parques-tematicos" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Parques temáticos</a>
+                    <a href="tulum-ultimate-tour" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Tulum</a>
+                    <a href="chichen-itza-experience-tour" class="text-white text-sm font-normal font-['PP Mori'] leading-snug">Chichen Itza</a>
                 </div>
             </div>
         </div>

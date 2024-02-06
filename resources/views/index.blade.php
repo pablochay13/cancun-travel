@@ -21,7 +21,7 @@
                 Existe una gran cantidad de tours, actividades y cosas que hacer cuando visita Cancún, Riviera Maya o Playa del Carmen. Disfrute con nosotros de los mejores tours y actividades de la región, sitios considerados patrimonio de la humanidad, monumentos famosos o reservas naturales de una manera segura, conveniente y cómoda.
             </p>
             <div class="px-[35px] py-5 bg-orange-600 rounded-[5px] justify-center items-center gap-2.5 inline-flex">
-                <a class="text-white text-base font-semibold font-['PP Mori']">Reserva ahora</a>
+                <a href="tours" class="text-white text-base font-semibold font-['PP Mori']">Reserva ahora</a>
             </div>
         </div>
 
@@ -161,7 +161,7 @@
                 <div class="w-[375px] 2xl:w-full"><span class="text-slate-950 text-[35px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[25px] 2xl:leading-[60px]">Transfers y Tours que Simplifican tu </span><span class="text-blue-900 text-[35px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[25px] 2xl:leading-[60px]">Viaje</span></div>
             </div>
             <div class="px-[35px] py-5 bg-orange-600 rounded-[5px] justify-center items-center gap-2.5 inline-flex">
-                <a class="text-white text-base font-semibold font-['PP Mori']">Reserva ahora</a>
+                <a href="tours" class="text-white text-base font-semibold font-['PP Mori']">Reserva ahora</a>
             </div>
         </div>
 
@@ -354,64 +354,56 @@
                 <p class="text-left text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[60px]">¿Necesita ayuda? <br> Ponte en contacto</p>
             </div>
 
-            <form class="w-[342px] 2xl:w-[742px] shrink-0 2xl:flex 2xl:flex-row 2xl:flex-wrap items-center justify-center gap-[30px] text-style grid grid-cols-1 2xl:grid-cols-2">
+            <!-- @if (count($errors) > 0)
+            <div class="alert alert-danger">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            @endif
+            @if ($message = Session::get('success'))
+            <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>{{ $message }}</strong>
+            </div>
+            @endif -->
+
+            <form method="post" action="{{url('sendemail/send')}}" class="w-[342px] 2xl:w-[742px] shrink-0 2xl:flex 2xl:flex-row 2xl:flex-wrap items-center justify-center gap-[30px] text-style grid grid-cols-1 2xl:grid-cols-2">
+                {{ csrf_field() }}
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
-                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Nombre</p>
-                    <div class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex">
-                        <input type="text" class="opacity-40 text-slate-500 text-base font-normal font-['PP Mori']">
-                    </div>
+                    <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Nombre</label>
+
+                    <input name="name" type="text" class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex text-slate-500 text-base font-normal font-['PP Mori']">
                 </div>
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
-                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Email</p>
-                    <div class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex">
-                        <input type="email" class="opacity-40 text-slate-500 text-base font-normal font-['PP Mori']">
-                    </div>
+                    <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Email</label>
+
+                    <input name="email" type="email" class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex text-slate-500 text-base font-normal font-['PP Mori']">
                 </div>
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
-                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Teléfono</p>
-                    <div class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex">
-                        <input type="tel" class="opacity-40 text-slate-500 text-base font-normal font-['PP Mori']">
-                    </div>
+                    <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Teléfono</label>
+
+                    <input name="tel" type="tel" class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex text-slate-500 text-base font-normal font-['PP Mori']">
                 </div>
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
-                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Fecha</p>
-                    <div class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex">
-                        <input type="date" class="opacity-40 text-slate-500 text-base font-normal font-['PP Mori']">
-                    </div>
+                    <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Fecha</label>
+
+                    <input name="date" type="date" class="w-[356px] h-[60px] px-[22px] py-4 bg-slate-100 rounded-lg border justify-start items-center gap-[13px] inline-flex text-slate-500 text-base font-normal font-['PP Mori']">
                 </div>
-                <!-- <div class="flex-col justify-start items-start gap-3 inline-flex">
-                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Número de pasajeros</p>
-                    <div class="w-[356px] h-[60px] relative">
-                        <div class="w-[356px] h-[60px] left-0 top-0 absolute bg-slate-100 rounded-lg border"></div>
-                        <div class="w-[42px] h-10 left-[10px] top-[10px] absolute">
-                            <div class="w-[42px] h-10 left-0 top-0 absolute bg-white rounded-lg border"></div>
-                            <div class="w-6 h-6 left-[9px] top-[8px] absolute">
-                                <div class="w-6 h-6 left-0 top-0 absolute">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-[42px] h-10 left-[304px] top-[10px] absolute">
-                            <div class="w-[42px] h-10 left-0 top-0 absolute bg-white rounded-lg border"></div>
-                            <div class="w-6 h-6 left-[9px] top-[8px] absolute">
-                                <div class="w-6 h-6 left-0 top-0 absolute">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="left-[169px] top-[21.50px] absolute text-center text-slate-500 text-base font-normal font-['PP Mori']">2</div>
-                    </div>
-                </div> -->
+
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
-                    <p class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Mensaje</p>
-                    <div class="w-auto 2xl:w-[742px] h-[165px] relative">
-                        <div class="w-[355px] 2xl:w-[742px] h-[165px] left-0 top-0 absolute bg-slate-100 rounded-lg border"></div>
-                        <textarea class="left-[22px] top-[21.50px] absolute opacity-40 text-slate-500 text-base font-normal font-['PP Mori']"></textarea>
-                    </div>
+                    <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Mensaje</label>
+
+                    <textarea name="message" class="w-[355px] 2xl:w-[742px] h-[165px] relative left-0 top-0 absolute bg-slate-100 rounded-lg border text-slate-500 text-base font-normal font-['PP Mori']"></textarea>
                 </div>
+
+                <button class="text-white text-base font-semibold font-['PP Mori'] px-[35px] py-5 bg-orange-600 rounded-[5px] justify-start items-start gap-2.5 inline-flex" type="submit" name="send" value="Send">Enviar</button>
             </form>
         </div>
-        <div class="px-[35px] py-5 bg-orange-600 rounded-[5px] justify-start items-start gap-2.5 inline-flex">
-            <button class="text-white text-base font-semibold font-['PP Mori']">Enviar</button>
-        </div>
+
     </div>
 
     <div class="2xl:w-[449px] h-[393.96px] left-[0px] top-[1000px] md:left-[450px] md:top-[152px] 2xl:left-[802px] 2xl:top-[152px] absolute flex-col justify-start items-start gap-[19px] inline-flex">
@@ -460,5 +452,4 @@
         </div>
     </div>
 </div>
-
 @endsection

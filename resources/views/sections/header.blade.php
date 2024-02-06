@@ -1,5 +1,5 @@
-<div class="w-full h-[874px] relative bg-cover" style="background-image: url(' {{ asset('/img/cancun-travel-experience-tulum-tour.webp') }} ')">
-    <div class="w-full h-[874px] left-0 top-0 absolute bg-black bg-opacity-30"></div>
+<div class="w-full h-[874px] relative bg-cover" style="opacity: 0.9; background-image: url(' {{ asset('/img/cancun-travel-experience-tulum-tour.webp') }} ')">
+    <!-- <div class="w-full h-[874px] left-0 top-0 absolute bg-black bg-opacity-30"></div> -->
 
     <!-- <div class="w-[217px] h-12 left-[75px] top-[60px] absolute">
         <img class="w-[217px] h-12 left-0 top-0 absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
@@ -35,8 +35,10 @@
                         </svg>
                     </button>
                 </div>
-                <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
-                    <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium right-[150px] top-[50px] absolute justify-center items-center">
+                <div class="z-40 hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
+                    <!-- <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium right-[150px] top-[50px] absolute justify-center items-center"> -->
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-transparent dark:bg-orange-600 bg-orange-600 md:dark:bg-transparent md:right-[150px] md:top-[50px] md:absolute md:justify-center md:items-center">
+
                         <li>
                             <a href="/" class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-orange-600 md:p-0 rounded" aria-current="page">Inicio</a>
                         </li>
@@ -50,7 +52,7 @@
                             <a href="#" class="text-white hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-orange-600 md:p-0">Traslados</a>
                         </li>
                         <li class="bg-white rounded-[5px] justify-center items-center px-[35px] py-[18px] gap-2.5 flex">
-                            <button class="text-orange-600 text-base font-semibold font-['PP Mori']">Contactanos</button>
+                            <a href="contacto" class="text-orange-600 text-base font-semibold font-['PP Mori']">Contactanos</a>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +73,7 @@
                 </span> <br> <span class="text-white text-[30px] 2xl:text-[75px] font-normal font-['Integral CF'] leading-[25px] 2xl:leading-[85px]">seleccionados</span></h1>
         </div>
         <div class="px-[35px] py-5 bg-white rounded-[5px] justify-center items-center gap-2.5 inline-flex">
-            <div class="text-orange-600 text-base font-semibold font-['PP Mori']">Reserva ahora</div>
+            <a href="tours" class="text-orange-600 text-base font-semibold font-['PP Mori']">Reserva ahora</a>
         </div>
     </div>
 
