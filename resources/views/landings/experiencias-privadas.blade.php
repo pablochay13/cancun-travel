@@ -18,10 +18,8 @@
 </div>
 
 <div class="py-12 my-12">
-     
     <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39261"></div>
     <noscript>Please enable javascript in your browser to book</noscript>
-
 </div>
 
 @endsection

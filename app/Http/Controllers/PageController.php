@@ -75,4 +75,9 @@ class PageController extends Controller
     {
         return view('landings.parques-tematicos');
     }
+
+    function Gracias()
+    {
+        return view('sections.gracias');
+    }
 }
