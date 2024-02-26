@@ -1,22 +1,4 @@
-<div class="w-full h-[874px] relative bg-cover" style="opacity: 0.9; background-image: url(' {{ asset('/img/cancun-travel-experience-tulum-tour.webp') }} ')">
-    <!-- <div class="w-full h-[874px] left-0 top-0 absolute bg-black bg-opacity-30"></div> -->
-
-    <!-- <div class="w-[217px] h-12 left-[75px] top-[60px] absolute">
-        <img class="w-[217px] h-12 left-0 top-0 absolute" src="{{ asset('/img/cancun-travel-experience-logo.webp') }}" />
-    </div>
-
-    <div class="w-[582px] h-[53px] left-[1278px] top-[56px] absolute justify-start items-center gap-[30px] inline-flex">
-        <div class="justify-center items-center gap-[26px] flex">
-            <div class="text-white text-base font-normal font-['PP Mori']">Reviews</div>
-            <div class="text-white text-base font-normal font-['PP Mori']">About Us</div>
-            <div class="text-white text-base font-normal font-['PP Mori']">All Experiences</div>
-            <div class="text-white text-base font-normal font-['PP Mori']">Transfers</div>
-        </div>
-        <div class="px-[35px] py-[18px] bg-white rounded-[5px] justify-center items-center gap-2.5 flex">
-            <div class="text-orange-600 text-base font-semibold font-['PP Mori']">Contact Us</div>
-        </div>
-    </div> -->
-
+<div class="w-full h-[874px] relative bg-cover" style="opacity: 0.9; background-image: url(' {{ asset('/img/cancun-travel-experience-tulum-tour.webp') }} ')" id="header">
     <!-- navbar -->
     <div class="max-w-2xl mx-auto pt-12 ">
         <nav class="border-gray-200 px-2 mb-10">
