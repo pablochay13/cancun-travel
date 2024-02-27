@@ -1,7 +1,7 @@
 <div class="w-full h-[650px] relative bg-cover" style="background-image: url(' {{ asset('/img/cancun-travel-experience-tulum-tour.webp') }} ')">
     <div class="w-full h-[650px] left-0 top-0 absolute bg-black bg-opacity-30"></div>
 
-    <!-- mavbar -->
+    <!-- navbar -->
     <div class="max-w-2xl mx-auto pt-12 ">
         <nav class="border-gray-200 px-2 mb-10">
             <div class="container mx-auto flex flex-wrap items-center justify-between">
@@ -19,33 +19,34 @@
                         </svg>
                     </button>
                 </div>
-                <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
-                    <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium right-[150px] top-[50px] absolute justify-center items-center">
+                <div class="z-40 hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-transparent dark:bg-orange-600 bg-orange-600 md:dark:bg-transparent md:right-[150px] md:top-[50px] md:absolute md:justify-center md:items-center">
+
                         <li>
-                            <a href="#" class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-orange-600 md:p-0 rounded" aria-current="page">Inicio</a>
+                            <a href="/" class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-orange-600 md:p-0 rounded" aria-current="page">Inicio</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-orange-600 md:p-0">Somos</a>
+                            <a href="somos" class="text-white hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-orange-600 md:p-0">Somos</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-orange-600 md:p-0">Experiencias</a>
+                            <a href="tours" class="text-white hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-orange-600 md:p-0">Experiencias</a>
                         </li>
                         <li>
                             <a href="#" class="text-white hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-orange-600 md:p-0">Traslados</a>
                         </li>
                         <li class="bg-white rounded-[5px] justify-center items-center px-[35px] py-[18px] gap-2.5 flex">
-                            <button class="text-orange-600 text-base font-semibold font-['PP Mori']">Contact Us</button>
+                            <a href="contacto" class="text-orange-600 text-base font-semibold font-['PP Mori']">Contactanos</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <!-- mavbar end -->
+    <!-- navbar end -->
 
     <div class="w-full h-[300px] top-[200px] absolute flex justify-center">
         <h1 class="w-full text-white text-[30px] 2xl:text-[75px] font-bold font-['Integral CF'] leading-[25px] 2xl:leading-[85px] flex justify-center items-center">
-            TEXTO
+            
         </h1>
     </div>
 </div>

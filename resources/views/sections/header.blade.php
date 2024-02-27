@@ -41,7 +41,7 @@
             </div>
         </nav>
     </div>
-    <!-- mavbar end -->
+    <!-- navbar end -->
 
     <p class="w-[300px] 2xl:w-[403px] left-[20px] 2xl:left-[80px] top-[701px] absolute"><span class="text-white text-base font-normal font-['PP Mori'] leading-[23px]">Emociónate, descubre, vive. Nuestros tours y experiencias están diseñados para despertar tus sentidos y sumergirte en la maravilla de cada destino. Desde tours gastronómicos hasta aventuras al aire libre, te invitamos a vivir el mundo de una manera totalmente nueva </span></p>
 
