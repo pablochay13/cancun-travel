@@ -2,8 +2,8 @@
 
 @section('title')
 <title> Cancun Travel Experience </title>
-<meta name="description" content="EXAMPLE">
-<meta name="keywords" content="EXAMPLE">
+<meta name="description" content="Cancun Travel Experience">
+<meta name="keywords" content="Cancun Travel Experience">
 <meta name="robots" content="index, follow">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>

@@ -1,10 +1,16 @@
 @extends('layout')
 
 @section('title')
-<title> Cancun Travel Experience </title>
-<meta name="description" content="EXAMPLE">
-<meta name="keywords" content="EXAMPLE">
+<title>Explora la Naturaleza en su Máxima Expresión - Cancun Travel Experience </title>
+<meta name="description" content="Descubre destinos épicos y vive experiencias inolvidables con nuestros tours de aventura. Desde emocionantes expediciones a zonas arqueologicas y emocionantes recorridos en los maravillosos cenotes de la riviera maya, sumérgete en la belleza natural del mundo con la seguridad y la emoción que solo nuestros expertos guías pueden ofrecer. ¡Reserva tu próxima aventura con nosotros y despierta tu espíritu de explorador hoy mismo!">
+<meta name="keywords" content="atv tours, zipline and atv tour, zipline and atv cancun, activities atv single zipline and cenote, cenote and zipline tour with atvs">
 <meta name="robots" content="index, follow">
+
+<style>
+  #header-home {
+    display: none !important;
+  }
+</style>
 @endsection
 
 @section('content')
