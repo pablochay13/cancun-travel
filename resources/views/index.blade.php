@@ -1,16 +1,10 @@
 @extends('layout')
 
 @section('title')
-<title>Descubre y Disfruta Explora Sin Límites - Cancun Travel Experience</title>
-<meta name="description" content="Experience seamless and stress-free travel in Cancun with our premier transportation service. From airport transfers to hotel pickups, we offer reliable and comfortable rides to your destination. Discover the beauty of Cancun without worries, as our professional drivers ensure a safe and efficient journey. Book your Cancun transfer now and enjoy a hassle-free travel experience!">
-<meta name="keywords" content="Cancun airport transfer, Cancun shuttle service, Cancun transportation, Cancun hotel transfers, Cancun transport service, atv tours, zipline and atv tour, zipline and atv cancun, activities atv single zipline and cenote, cenote and zipline tour with atvs, Mejores tours en Cancún, Tours todo incluido en Cancún, Tours con transporte incluido, Tours con guía turístico, Tours con entradas a atracciones, Tours con actividades acuáticas, Tours con experiencias gastronómicas">
+<title> Cancun Travel Experience </title>
+<meta name="description" content="EXAMPLE">
+<meta name="keywords" content="EXAMPLE">
 <meta name="robots" content="index, follow">
-
-<style>
-    #header-landing {
-        display: none !important;
-    }
-</style>
 @endsection
 
 @section('content')
@@ -46,42 +40,105 @@
                 <div class="text-orange-600 text-md 2xl:text-sm font-semibold font-['PP Mori'] uppercase tracking-widest">Nuestras experiencias</div>
                 <div><span class="text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Top </span><span class="text-blue-900 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Experiences</span></div>
             </div>
+            <!-- <div class="justify-center items-center gap-[18px] inline-flex">
+                <div class="px-[26px] py-5 bg-orange-600 rounded-lg justify-center items-center gap-2.5 flex">
+                    <div class="text-white text-base font-semibold font-['PP Mori']">Sightseeing & Culture</div>
+                </div>
+                <div class="px-[23px] py-5 bg-slate-100 rounded-lg justify-center items-center gap-2.5 flex">
+                    <div class="text-slate-700 text-base font-normal font-['PP Mori']">Adventure Experiences</div>
+                </div>
+                <div class="px-[23px] py-5 bg-slate-100 rounded-lg justify-center items-center gap-2.5 flex">
+                    <div class="text-slate-700 text-base font-normal font-['PP Mori']">Boats & Water Experiences</div>
+                </div>
+                <div class="px-[23px] py-5 bg-slate-100 rounded-lg justify-center items-center gap-2.5 flex">
+                    <div class="text-slate-700 text-base font-normal font-['PP Mori']">Transfers</div>
+                </div>
+            </div> -->
         </div>
     </div>
+
+    <!-- Tabs -->
+    <!-- <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
+        <div data-controller="tabs" data-tabs-index-value="0" class="mx-6 mt-6">
+            <ul class="flex flex-wrap justify-center dark:border-gray-700">
+                <li class="mr-2 bg-slate-100 rounded-sm" data-action="click->tabs#change" data-tabs-target="tab">
+                    <a href="#" class="inline-block text-slate-700 hover:text-slate-700 hover:bg-gray-50 rounded-t-lg py-4 px-4 text-sm font-medium text-center">Sightseeing & Culture</a>
+                </li>
+                <li class="mr-2 bg-slate-100 rounded-sm inactive" data-action="click->tabs#change" data-tabs-target="tab">
+                    <a href="#" class="inline-block text-slate-700  hover:text-slate-700 hover:bg-gray-50 rounded-t-lg py-4 px-4 text-sm font-medium text-center">Adventure Experiences</a>
+                </li>
+                <li class="mr-2 bg-slate-100 rounded-sm inactive" data-action="click->tabs#change" data-tabs-target="tab">
+                    <a href="#" class="inline-block text-slate-700  hover:text-slate-700 hover:bg-gray-50 rounded-t-lg py-4 px-4 text-sm font-medium text-center">Boats & Water Experiences</a>
+                </li>
+                <li class="mr-2 bg-slate-100 rounded-sm inactive" data-action="click->tabs#change" data-tabs-target="tab">
+                    <a href="#" class="inline-block text-slate-700 hover:text-slate-700 hover:bg-gray-50 rounded-t-lg py-4 px-4 text-sm font-medium text-center ">Transfers</a>
+                </li>
+            </ul>
+            <div class="hidden px-1 py-10" data-tabs-target="panel">
+                <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/39266"></div>
+                <noscript>Please enable javascript in your browser to book</noscript>
+            </div>
+            <div class="hidden px-1 py-10" data-tabs-target="panel">
+                <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/39275"></div>
+                <noscript>Please enable javascript in your browser to book</noscript>
+            </div>
+            <div class="hidden px-1 py-10" data-tabs-target="panel">
+                <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/39264"></div>
+                <noscript>Please enable javascript in your browser to book</noscript>
+            </div>
+            <div class="hidden px-1 py-10" data-tabs-target="panel">
+                <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/51127"></div>
+                <noscript>Please enable javascript in your browser to book</noscript>
+            </div>
+        </div>
+    </div> -->
 
     <div class="w-full h-auto 2xl:h-auto flex-col justify-start items-center gap-10 inline-flex my-12">
         <div x-data="{ openTab: 1 }" class="p-8">
             <div class="container w-auto md:w-full 2xl:w-[1280px] mx-auto pb-12">
                 <div class="mb-4 flex flex-col md:flex-row space-x-4 p-2 bg-white rounded-lg shadow-md">
-                    <button x-on:click="openTab = 1" :class="{ 'bg-orange-600 text-white': openTab === 1 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Top Experiencias</button>
-                    <button x-on:click="openTab = 2" :class="{ 'bg-orange-600 text-white': openTab === 2 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Turismo y Cultura</button>
-                    <button x-on:click="openTab = 3" :class="{ 'bg-orange-600 text-white': openTab === 3 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Experiencias de Aventura</button>
-                    <button x-on:click="openTab = 4" :class="{ 'bg-orange-600 text-white': openTab === 4 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Barcos y experiencias acuáticas</button>
-                    <button x-on:click="openTab = 5" :class="{ 'bg-orange-600 text-white': openTab === 5 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Traslados</button>
+                    <button x-on:click="openTab = 1" :class="{ 'bg-orange-600 text-white': openTab === 1 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Turismo y Cultura</button>
+
+                    <button x-on:click="openTab = 2" :class="{ 'bg-orange-600 text-white': openTab === 2 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Experiences de aventura</button>
+
+                    <button x-on:click="openTab = 3" :class="{ 'bg-orange-600 text-white': openTab === 3 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Barcos y experiencias acuáticas</button>
+
+                    <button x-on:click="openTab = 4" :class="{ 'bg-orange-600 text-white': openTab === 4 }" class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Transfers</button>
                 </div>
 
                 <div x-show="openTab === 1" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/56250"></div>
+                    <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/39266"></div>
                     <noscript>Please enable javascript in your browser to book</noscript>
                 </div>
 
                 <div x-show="openTab === 2" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39266"></div>
+                    <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/39275"></div>
                     <noscript>Please enable javascript in your browser to book</noscript>
                 </div>
 
                 <div x-show="openTab === 3" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39275"></div>
+                    <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
+
+                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/39264"></div>
                     <noscript>Please enable javascript in your browser to book</noscript>
                 </div>
 
                 <div x-show="openTab === 4" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/39264"></div>
-                    <noscript>Please enable javascript in your browser to book</noscript>
-                </div>
+                    <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a628bf2f-6ea9-4941-a1ef-f33ae595362d" async></script>
 
-                <div x-show="openTab === 5" class="transition-all duration-300 bg-white p-4 rounded-lg shadow-md border-l-4 ">
-                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/ed6014cf-0772-484f-ab73-511bb2e36cc4/product-list/51127"></div>
+                    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/a628bf2f-6ea9-4941-a1ef-f33ae595362d/product-list/51127"></div>
                     <noscript>Please enable javascript in your browser to book</noscript>
                 </div>
             </div>
@@ -161,102 +218,14 @@
 
 <!-- reviews section -->
 <div class="w-full h-[750px] md:h-[750px] 2xl:h-[750px] relative my-12 py-12" id="reviews">
-    <div class="w-full h-[152px] 2xl:h-[152px] mx flex-col justify-center items-center gap-[17px] inline-flex py-12 mb-4">
+    <div class="w-full h-[152px] 2xl:h-[152px] mx flex-col justify-center items-center gap-[17px] inline-flex py-12">
         <p class="text-orange-600 text-sm font-semibold font-['PP Mori'] uppercase tracking-widest pt-12 mt-12">TESTIMONIOS</p>
         <p class="w-full 2xl:w-[775px] text-center text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[40px] 2xl:leading-[60px]">Historias inspiradoras de nuestros clientes</p>
     </div>
 
-    <!-- <div class="w-[325px] md:w-full 2xl:w-full h-[350px] left-[55px] md:left-0 2xl:left-0 top-[300px] absolute justify-center items-center 2xl:items-end gap-7 md:inline-flex 2xl:inline-flex grid grid-cols-1">
+    <div class="w-[325px] md:w-full 2xl:w-full h-[350px] left-[55px] md:left-0 2xl:left-0 top-[300px] absolute justify-center items-center 2xl:items-end gap-7 md:inline-flex 2xl:inline-flex grid grid-cols-1">
+        <!-- <div class='sk-ww-tripadvisor-reviews' data-embed-id='25353154'></div> -->
         <div class="elfsight-app-6a57d6fa-1dcd-4cff-ba53-2dc6a530ac7f" data-elfsight-app-lazy></div>
-    </div> -->
-
-    <div class="container mx-auto w-full overflow-hidden relative pt-12 mt-12">
-        <div class="w-full h-full absolute">
-            <div class="w-1/4 h-full absolute z-50 left-0" style=""></div>
-            <div class="w-1/4 h-full absolute z-50 right-0" style=""></div>
-        </div>
-
-        <div class="carousel-items flex items-center justify-center" style="width: fit-content; animation: carouselAnim 10s infinite alternate linear;">
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <span class="text-orange-600 font-bold text-xl mb-3">Christian K</span>
-                <p class="mt-3 text-gray-600 text-center">"We had the most amazing time – Jackie was so informative and we got so much done. Preferred their approach to the Cenote tour over others. Would truly recommend any one in Tulum doing this tour for some fun with friends while visiting."</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">Kar J</p>
-                <p class="mt-3 text-gray-600 text-center">"Loved it, amazing tour with great people. Thank you Omar and Hugo for the trip to the cenote and the Mayan ruins. My partner and I had an amazing time!"</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">Sylvia R</p>
-
-                <p class="mt-3 text-gray-600 text-center">"The Cenotes was very nice! However you only get access to one of four. Ours was very nice. We were able to enjoy a dip and swim around."</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">Rachel S</p>
-
-                <p class="mt-3 text-gray-600 text-center">"Mary was an amazing tour guide! We also had great driving service from Rene. Mary provided a very engaging and informative tour of the Tulum ruins and we had a lot of fun at the cenote swim at Casa Tortuga. We also got to enjoy a delicious lunch at a local restaurant organized by Mary."</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">Brad D</p>
-
-                <p class="mt-3 text-gray-600 text-center">"Lylah was an excellent tour guide! Great transportation, which was very smooth. I learned a lot about the region and would recommend it to small groups and families."</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">Melissa P</p>
-
-                <p class="mt-3 text-gray-600 text-center">"Such an amazing experience. The Cenotes was my favorite part and my husband enjoyed the Ruins. Would have loved to spend more time exploring the ruins but realized we were on a shorter trip."</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">LindiSc</p>
-
-                <p class="mt-3 text-gray-600 text-center">"Great tour. Mary was very knowledgeable and shared a lot of interesting information. Renee was a wonderful driver to have. He was very considerate. Great day altogether."</p>
-            </div>
-
-            <div class="carousel-focus flex items-center flex-col relative bg-white mx-5 my-10 px-4 py-3 rounded-lg shadow-lg" style="width: 270px; height:350px;">
-                <svg class="fill-current text-orange-600 hover:text-orange-600 cursor-pointer h-12 w-12 absolute top-0 right-0 mt-2 -mr-5" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path d="M11.5 0C17.847 0 23 5.153 23 11.5S17.847 23 11.5 23 0 17.847 0 11.5 5.153 0 11.5 0zm0 1C17.295 1 22 5.705 22 11.5S17.295 22 11.5 22 1 17.295 1 11.5 5.705 1 11.5 1zm.5 10h6v1h-6v6h-1v-6H5v-1h6V5h1v6z" />
-                </svg>
-                <!-- <button class="absolute top-0 right-0 bg-teal-400 rounded-full px-1 py-0 font-bold text-lg">+</button> -->
-                <p class="text-orange-600 font-bold text-xl mb-3">Emilie C</p>
-
-                <p class="mt-3 text-gray-600 text-center">"My family and I had a great day exploring the ruins and swimming in a Cenote. Jerry was our tour guide, he was so informative and did a great job at involving the group in discussion. We also had plenty of time to explore the grounds and shops. Rene, our driver, was also very nice. It was a lovely day"</p>
-            </div>
-        </div>
-
     </div>
 </div>
 
@@ -385,7 +354,7 @@
                 <p class="text-left text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[60px]">¿Necesita ayuda? <br> Ponte en contacto</p>
             </div>
 
-            @if (count($errors) > 0)
+            <!-- @if (count($errors) > 0)
             <div class="alert alert-danger">
                 <button type="button" class="close" data-dismiss="alert">×</button>
                 <ul>
@@ -396,17 +365,13 @@
             </div>
             @endif
             @if ($message = Session::get('success'))
-            <!-- <div class="alert alert-success alert-block">
+            <div class="alert alert-success alert-block">
                 <button type="button" class="close" data-dismiss="alert">×</button>
                 <strong>{{ $message }}</strong>
-            </div> -->
-            <?php
-            header('Location:/gracias');
-            exit;
-            ?>
-            @endif
+            </div>
+            @endif -->
 
-            <form method="post" action="{{url('sendemail/send')}}" class="w-[342px] 2xl:w-[742px] shrink-0 2xl:flex 2xl:flex-row 2xl:flex-wrap gap-[30px] text-style grid grid-cols-1 2xl:grid-cols-2">
+            <form method="post" action="{{url('sendemail/send')}}" class="w-[342px] 2xl:w-[742px] shrink-0 2xl:flex 2xl:flex-row 2xl:flex-wrap items-center justify-center gap-[30px] text-style grid grid-cols-1 2xl:grid-cols-2">
                 {{ csrf_field() }}
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
                     <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Nombre</label>

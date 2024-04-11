@@ -1,4 +1,7 @@
-<div class="w-full h-auto md:h-[1070px] 2xl:h-[838px] relative pt-12 mt-12" style="opacity: 0.8; background-image: url('{{ asset('/img/cancun-travel-experience-footer.webp')}}')" id="footer">
+<div class="w-full h-auto md:h-[1070px] 2xl:h-[838px] relative pt-12 mt-12" style="opacity: 0.8; background-image: url('{{ asset('/img/cancun-travel-experience-footer.webp')}}')">
+    <!-- <div class="w-full h-[838px] top-0 absolute bg-black bg-opacity-30"></div>
+    <div class="w-full h-[838px] top-0 absolute bg-white bg-opacity-30"></div> -->
+
     <!-- desktop -->
     <div class="hidden md:block 2xl:block w-full h-[316px] top-[481px] absolute">
         <div class="w-[1280px] 2xl:left-[300px] md:left-[30px] left-[300px] h-[60px] top-[256px] absolute">

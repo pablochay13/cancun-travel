@@ -1,15 +1,10 @@
 @extends('layout')
 
 @section('title')
-<title>Luxury Sailing to Isla Mujeres with lunch and Premium Open Bar - Cancun Travel Experience </title>
-<meta name="description" content="Snorkel amid brilliant aquarium fish in the turquoise sea then enjoy the premium open bar on board and lunch in the VIP area of one of Isla Mujeres’ top beach clubs.">
-<meta name="keywords" content="luxury sailing isla mujeres , luxury sailing isla mujeres, luxury sailing and snorkeling, tour luxury sailing isla mujeres, luxury sailing, luxury sailing tours">
+<title> Cancun Travel Experience </title>
+<meta name="description" content="EXAMPLE">
+<meta name="keywords" content="EXAMPLE">
 <meta name="robots" content="index, follow">
-<style>
-  #header-home {
-    display: none !important;
-  }
-</style>
 @endsection
 
 @section('content')

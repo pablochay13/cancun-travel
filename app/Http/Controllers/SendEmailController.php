@@ -30,7 +30,7 @@ class SendEmailController extends Controller
             'message'   =>   $request->message
         );
 
-        Mail::to('info@cancuntravelexperience.com')->send(new SendMail($data));
+        Mail::to('pablochay89@gmail.com')->send(new SendMail($data));
         return back()->with('success', 'Thanks for contacting us!');
     }
 }

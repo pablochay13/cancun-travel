@@ -1,15 +1,10 @@
 @extends('layout')
 
 @section('title')
-<title>Descubre y Disfruta Explora Sin Límites - Cancun Travel Experience</title>
-<meta name="description" content="Experience seamless and stress-free travel in Cancun with our premier transportation service. From airport transfers to hotel pickups, we offer reliable and comfortable rides to your destination. Discover the beauty of Cancun without worries, as our professional drivers ensure a safe and efficient journey. Book your Cancun transfer now and enjoy a hassle-free travel experience!">
-<meta name="keywords" content="Cancun airport transfer, Cancun shuttle service, Cancun transportation, Cancun hotel transfers, Cancun transport service, atv tours, zipline and atv tour, zipline and atv cancun, activities atv single zipline and cenote, cenote and zipline tour with atvs, Mejores tours en Cancún, Tours todo incluido en Cancún, Tours con transporte incluido, Tours con guía turístico, Tours con entradas a atracciones, Tours con actividades acuáticas, Tours con experiencias gastronómicas">
+<title> Cancun Travel Experience </title>
+<meta name="description" content="EXAMPLE">
+<meta name="keywords" content="EXAMPLE">
 <meta name="robots" content="index, follow">
-<style>
-  #header-home {
-    display: none !important;
-  }
-</style>
 @endsection
 
 @section('content')
@@ -24,7 +19,7 @@
                 <p class="text-left text-slate-950 text-[30px] 2xl:text-[50px] font-bold font-['Trip Sans'] leading-[60px]">¿Necesita ayuda? <br> Ponte en contacto</p>
             </div>
 
-            @if (count($errors) > 0)
+            <!-- @if (count($errors) > 0)
             <div class="alert alert-danger">
                 <button type="button" class="close" data-dismiss="alert">×</button>
                 <ul>
@@ -35,17 +30,13 @@
             </div>
             @endif
             @if ($message = Session::get('success'))
-            <!-- <div class="alert alert-success alert-block">
+            <div class="alert alert-success alert-block">
                 <button type="button" class="close" data-dismiss="alert">×</button>
                 <strong>{{ $message }}</strong>
-            </div> -->
-            <?php
-            header('Location:/gracias');
-            exit;
-            ?>
-            @endif
+            </div>
+            @endif -->
 
-            <form method="post" action="{{url('sendemail/send')}}" class="w-[342px] 2xl:w-[742px] shrink-0 2xl:flex 2xl:flex-row 2xl:flex-wrap  gap-[30px] text-style grid grid-cols-1 2xl:grid-cols-2">
+            <form method="post" action="{{url('sendemail/send')}}" class="w-[342px] 2xl:w-[742px] shrink-0 2xl:flex 2xl:flex-row 2xl:flex-wrap items-center justify-center gap-[30px] text-style grid grid-cols-1 2xl:grid-cols-2">
                 {{ csrf_field() }}
                 <div class="flex-col justify-start items-start gap-3 inline-flex">
                     <label class="text-slate-950 text-sm font-semibold font-['PP Mori'] capitalize leading-snug">Nombre</label>
@@ -126,5 +117,6 @@
         </div>
     </div>
 </div>
+
 
 @endsection

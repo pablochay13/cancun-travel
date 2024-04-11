@@ -14,19 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE3NLPRLHM"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-NE3NLPRLHM');
-    </script>
-
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -45,6 +32,19 @@
         })(window, document, 'script', 'dataLayer', 'GTM-57SJ9XCC');
     </script>
     <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE3NLPRLHM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NE3NLPRLHM');
+    </script>
 </head>
 
 <!-- <body> -->
@@ -60,7 +60,7 @@
 
     @include('sections.footer')
 
-    <!-- </div> -->
+    </div>
 
     <script src="./node_modules/preline/dist/preline.js"></script>
 
@@ -70,6 +70,7 @@
 
     <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=ed6014cf-0772-484f-ab73-511bb2e36cc4" async></script>
 
+    <!-- <script src='https://widgets.sociablekit.com/tripadvisor-reviews/widget.js' async defer></script> -->
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 </body>
 

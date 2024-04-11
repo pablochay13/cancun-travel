@@ -23,7 +23,6 @@ Route::get('/', function () {
 Route::get('/contacto', [PageController::class, 'Contacto']);
 Route::get('/somos', [PageController::class, 'Somos']);
 Route::get('/tours', [PageController::class, 'Tours']);
-Route::get('/gracias', [PageController::class, 'Gracias']);
 
 // landings
 Route::get('/tulum-ultimate-tour', [PageController::class, 'TulumTour']);
@@ -39,5 +38,8 @@ Route::get('/fiesta-y-vida-nocturna', [PageController::class, 'FiestaVidaNocturn
 Route::get('/parques-tematicos', [PageController::class, 'ParqueTematico']);
 
 //envio mail
+// Route::get('/sendemail', 'SendEmailController@EnviarCorreo');
+// Route::post('/sendemail/send', 'SendEmailController@send');
+
 Route::get('/sendemail', [SendEmailController::class, 'enviarcorreo']);
 Route::post('/sendemail/send', [SendEmailController::class, 'send']);
